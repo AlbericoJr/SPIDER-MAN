@@ -447,7 +447,7 @@ header button:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  animation: changeBG 10s infinite;
+  animation: changeBG 15s infinite;
 }
 
 .s-vilao::before{
@@ -516,13 +516,9 @@ footer .left{
   max-width: 66.8rem;
 }
 
-footer .left strong{
-  font-family: "Mohave", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-  text-transform: uppercase;
+footer .left .icon{
+  width: 4rem;
   margin-bottom: 1.1rem;
-  display: block;
 }
 
 footer .left p{
@@ -546,37 +542,70 @@ footer .right span{
 /* Animation */
 @keyframes changeBG {
   0%{
-    background-image: url("../img/bg-venon.png");
+    background-image: url("../img/bg/item_01.jpg");
   }
   5%{
-    background-image: url("../img/bg/02.png");
+    background-image: url("../img/bg/item_02.png");
+  }
+  15%{
+    background-image: url("../img/bg/item_03.png");
   }
   20%{
-    background-image: url("../img/bg/03.png");
+    background-image: url("../img/bg/item_04.png");
+  }
+  25%{
+    background-image: url("../img/bg/item_05.jpg");
   }
   30%{
-    background-image: url("../img/bg/04.png");
+    background-image: url("../img/bg/item_06.png");
+  }
+  35%{
+    background-image: url("../img/bg/item_07.png");
+  }
+  35%{
+    background-image: url("../img/bg/item_08.jpg");
   }
   40%{
-    background-image: url("../img/bg/05.png");
+    background-image: url("../img/bg/item_09.png");
+  }
+  45%{
+    background-image: url("../img/bg/item_10.jpg");
   }
   50%{
-    background-image: url("../img/bg/06.png");
+    background-image: url("../img/bg/item_11.png");
+  }
+  55%{
+    background-image: url("../img/bg/item_12.jpg");
   }
   60%{
-    background-image: url("../img/bg/07.png");
+    background-image: url("../img/bg/item_13.png");
+  }
+  65%{
+    background-image: url("../img/bg/item_14.jpg");
   }
   70%{
-    background-image: url("../img/bg/08.png");
+    background-image: url("../img/bg/item_15.png");
+  }
+  75%{
+    background-image: url("../img/bg/item_16.png");
   }
   80%{
-    background-image: url("../img/bg/09.png");
+    background-image: url("../img/bg/item_17.jpg");
+  }
+  85%{
+    background-image: url("../img/bg/item_18.jpg");
   }
   90%{
-    background-image: url("../img/bg/010.png");
+    background-image: url("../img/bg/item_19.jpg");
+  }
+  94%{
+    background-image: url("../img/bg/item_20.png");
+  }
+  98%{
+    background-image: url("../img/bg/item_21.jpg");
   }
   100%{
-    background-image: url("../img/bg-venon.png");
+    background-image: url("../img/bg/item_01.jpg");
   }
 }
 
